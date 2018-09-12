@@ -1,0 +1,11 @@
+public class LargestPalindrome {
+  public static void main (String[] args){
+    
+  }
+  // test if local var can have same name as paramater
+  public static boolean isPalindrome(int num){
+   String num = ""+num;
+   String begin = Str.subString(0,num.length/2);
+   String end = Str.subString(num.length/2, num.length);
+  }
+}
